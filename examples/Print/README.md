@@ -13,13 +13,11 @@ The main program initializes and outputs:
 
 ### Example Output
 
-'''bash
 Hello, ESP32! Text printing works!
-␛[0;32mI (300) MyApp: This is an informational log.␛[0m
-␛[0;31mE (300) MyApp: This is an error log.␛[0m
-␛[0;32mI (310) Weather: The temperature is 25␛[0m
-␛[0;31mE (310) Weather: The humidity is 60␛[0m
-'''
+MyApp: This is an informational log
+MyApp: This is an error log
+Weather: The temperature is 25
+Weather: The humidity is 60
 
 ## Requirements
 - **ESP32 Development Board**
