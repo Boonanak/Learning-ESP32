@@ -12,13 +12,14 @@ The goal is to help you:
 ---
 
 ## Table of Contents
-- [Features](#features)
-- [Setup Instructions](#setup-instructions)
-- [Examples](#examples)
-  - [Blink](examples/blink/README.md)
-  - [MacAddress](examples/macaddress/README.md)
-  - [Print](examples/print/README.md)
-
+- [Docs](docs)
+  - [Faq](docs/faq.md)
+  - [References](docs/references.md)
+  - [Setup](docs/setup.md)
+- [Examples](examples)
+  - [Blink](examples/Blink/README.md)
+  - [MacAddress](examples/MacAddress/README.md)
+  - [Print](examples/Print/README.md)
 
 ---
 
@@ -30,5 +31,3 @@ The goal is to help you:
   - Using the serial monitor for debugging.
   - Retrieving the ESP32's MAC address.
 - Beginner-friendly documentation and troubleshooting tips.
-
----
