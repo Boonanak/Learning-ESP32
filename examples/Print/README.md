@@ -13,11 +13,11 @@ The main program initializes and outputs:
 
 ### Example Output
 
-Hello, ESP32! Text printing works!
-MyApp: This is an informational log
-MyApp: This is an error log
-Weather: The temperature is 25
-Weather: The humidity is 60
+- Hello, ESP32! Text printing works!
+- MyApp: This is an informational log
+- MyApp: This is an error log
+- Weather: The temperature is 25
+- Weather: The humidity is 60
 
 ## Requirements
 - **ESP32 Development Board**
@@ -37,7 +37,7 @@ Weather: The humidity is 60
 ## How to Run
 1. Connect your ESP32 to your computer using a USB cable.
 2. Ensure the correct serial port is selected in your environment.
-3. Run the following commands to build, flash, and monitor:
+3. Press the Build and then Upload button in the top right or run the following commands to build, flash, and monitor:
   ```bash
   idf.py build flash monitor
   ```

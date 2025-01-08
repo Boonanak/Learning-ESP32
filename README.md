@@ -17,7 +17,7 @@ The goal is to help you:
   - [References](docs/references.md)
   - [Setup](docs/setup.md)
 - [Examples](examples)
-  - [Blink](examples/blink/README.md)
+  - [Blink](examples/Blink/README.md)
   - [MacAddress](examples/MacAddress/README.md)
   - [Print](examples/Print/README.md)
 
