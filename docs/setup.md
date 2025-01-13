@@ -73,6 +73,18 @@ idf.py monitor
 ```
 
 ## Troubleshooting
-- No Serial Port Detected: Ensure your USB cable supports data transfer and the drivers for your ESP32 are installed.
-- Build Errors: Verify that the ESP-IDF framework is installed and selected in your project.
-- Flashing Issues: Double-check the connection between your ESP32 and computer.
+
+### **1. My ESP32 is not detected by my computer.
+- Verify that your USB cable supports data transfer.
+- Ensure drivers for the ESP32 are installed:
+  - For Windows, install the CP210x or CH340 drivers.
+  - For macOS/Linux, the drivers are usually pre-installed.
+### **2. I get build errors when compiling my project.
+- Ensure you selected the correct framework (ESP-IDF) and board in your project setup.
+- Check that all required libraries are installed. PlatformIO should manage this automatically.
+### **3. My program flashes successfully, but nothing happens.
+- Confirm the program logic is correct.
+- Double-check the GPIO connections.
+- Verify the ESP32 board is powered and functional.
+### **4. The serial monitor shows garbled output.
+Ensure the baud rate in your serial monitor matches the baud rate configured in your project (default: 115200).
