@@ -13,7 +13,7 @@ static const char *TAG = "ESP-NOW";
 uint8_t broadcastAddress[] = {0x3C, 0x8A, 0x1F, 0xA7, 0x36, 0x18};
 
 // Message to be sent
-const char *message = "Hello from ESP-NOW sender!";
+const char *message = "Hello from ESP-NOW transmitter!";
 
 // Callback when data is sent
 void OnDataSent(const uint8_t *mac_addr, esp_now_send_status_t status) {
@@ -62,7 +62,7 @@ void app_main() {
         return;
     }
 
-    ESP_LOGI(TAG, "ESP-NOW sender initialized. Sending data...");
+    ESP_LOGI(TAG, "ESP-NOW transmitter initialized. Sending data...");
 
     // Send continuously in a loop
     while (1) {
