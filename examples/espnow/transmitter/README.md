@@ -18,11 +18,10 @@ The main program performs the following steps:
 6. Sends data to the receiver in a loop, logging the transmission status.
 
 ### Example Output
-'''
+```
 I (1234) ESP-NOW: ESP-NOW transmitter initialized. Sending data... 
 I (2234) ESP-NOW: Sending data: Hello from ESP-NOW transmitter! I (3234) ESP-NOW: Data sent to 3C:8A:1F:A7:36:18, status: Success
-'''
-
+```
 
 ## Requirements
 - **ESP32 Development Board**
