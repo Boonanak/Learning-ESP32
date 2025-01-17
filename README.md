@@ -8,6 +8,7 @@ The goal is to help you:
 - Set up your development environment.
 - Understand the basics of ESP32 programming with the ESP-IDF framework.
 - Explore foundational examples, such as blinking an LED, using the serial monitor, retrieving the ESP32's MAC address, and more to come.
+- Learn C/C++ as ESP-IDF is primarily based in C but also supports integration with C++ through using the extern "C". This is especially important for object-oriented features of development.
 
 ---
 
