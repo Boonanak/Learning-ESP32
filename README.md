@@ -35,7 +35,3 @@ The goal is to help you:
   - Using the serial monitor for debugging.
   - Retrieving the ESP32's MAC address.
 - Beginner-friendly documentation and troubleshooting tips.
-
-
-
-aaaaa
