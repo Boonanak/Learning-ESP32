@@ -41,9 +41,9 @@ This guide walks you through setting up your development environment for program
 
 ### 5. Connect Your ESP32
 1. Use a USB cable to connect your ESP32 board to your computer.
-2. Verify the connection:
-   - On Windows: Check the Device Manager for a new COM port.
-   - On macOS/Linux: Run `ls /dev/tty*` to identify the connected device.
+2. **Install the necessary drivers** to ensure your computer can recognize the ESP32:
+   - For **Windows** users: If your board uses a **CP210x** USB-to-UART chip (common on many ESP32 boards), download the driver from [Silicon Labs](https://www.silabs.com/developer-tools/usb-to-uart-bridge-vcp-drivers) and install it.
+   - For **macOS/Linux** users: The drivers are typically pre-installed, but you may need to update them if the device is not recognized.
 
 ### 6. Select the Correct Serial Port
 1. Open the `platformio.ini` file in your project.
